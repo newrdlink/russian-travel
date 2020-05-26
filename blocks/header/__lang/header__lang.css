@@ -1,0 +1,9 @@
+.header__lang {
+     list-style: none; 
+     display: inline;  
+     margin: 0 15px 0 0;     
+}
+
+.header__lang:last-of-type {
+     margin: 0;      
+}

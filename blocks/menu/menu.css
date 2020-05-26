@@ -1,0 +1,13 @@
+@import url(./__links/menu__links.css);
+@import url(./__link/menu__link.css);
+@import url(./__items/menu__items.css);
+
+.menu {
+}
+
+@media screen and (max-width: 330px) {
+  .menu {
+    margin: 0 0 48px 0;
+    padding-left: 16px;
+  }
+}

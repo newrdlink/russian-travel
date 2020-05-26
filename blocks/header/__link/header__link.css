@@ -1,0 +1,17 @@
+@import url(./_active/header__link_active.css);
+@import url(./_active/header__link_inactive.css);
+
+.header__link {
+  color: #fff;
+  font-size: 24px;
+  line-height: 28px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 330px) {
+  .header__link {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
