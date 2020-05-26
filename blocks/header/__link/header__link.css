@@ -7,6 +7,11 @@
   line-height: 28px;
   font-style: normal;
   font-weight: normal;
+  transition: ease-in 0.1s opacity;
+}
+
+.header__link:hover {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 330px) {
