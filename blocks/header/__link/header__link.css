@@ -1,12 +1,12 @@
-@import url(./_active/header__link_active.css);
-@import url(./_active/header__link_inactive.css);
+
 
 .header__link {
-  color: #fff;
+  color: #aaa;
   font-size: 24px;
   line-height: 28px;
   font-style: normal;
-  font-weight: normal;
+  font-weight: normal;  
+  text-decoration: none;
   transition: ease-in 0.1s opacity;
 }
 
