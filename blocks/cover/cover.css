@@ -1,4 +1,4 @@
-@import url(./__overlay/cover__overlay.css);
+/*@import url(./__overlay/cover__overlay.css);*/
 @import url(./__content/cover__content.css);
 @import url(./__title/cover__title.css);
 @import url(./__subtitle/cover__subtitle.css);
@@ -6,58 +6,30 @@
 
 .cover {
   position: relative;
-  height: 740px;
-  width: 1184px;
+  min-height: 740px;
+  max-width: 1184px;
+  margin: 0 auto 92px;
   background-image: url(../../images/__background.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  margin: 0 auto 92px;
-  text-decoration: none;
 }
 
-@media screen and (max-width: 1215px) {
+@media screen and (max-width: 1030px) {
   .cover {
-    height: 640px;
-    width: 1024px;
+    min-height: 640px;
   }
 }
-@media screen and (max-width: 1010px) {
+
+@media screen and (max-width: 775px) {
   .cover {
-    height: 480px;
-    width: 768px;
+    min-height: 480px;
     margin: 0 auto 88px;
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 330px) {
   .cover {
-    height: 200px;
-    width: 320px;
-    margin: 0 auto 64px;
+    min-height: 200px;
   }
 }
-/*рабочий вариант с градиентом*/
-/*.cover {
-  max-height: 740px;
-  max-width: 1184px;
-
-  background-image: linear-gradient(
-      rgba(42, 44, 47, 0.3),
-      rgba(42, 44, 47, 0.3)
-    ),
-    url(../../images/__background.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  margin: 0 auto 92px;
-  text-decoration: none;
-}
-
-.cover:hover {
-  background-image: linear-gradient(
-      rgba(42, 44, 47, 0.8),
-      rgba(42, 44, 47, 0.8)
-    ),
-    url(../../images/__background.jpg);
-}*/
