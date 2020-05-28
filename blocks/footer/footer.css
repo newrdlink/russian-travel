@@ -2,7 +2,7 @@
 
 .footer {
   max-width: 1184px;
-  margin: 0 auto;
+  margin: 0 48px;
   padding: 0;
   display: flex;
   justify-content: space-between;
@@ -17,11 +17,13 @@
 @media screen and (max-width: 775px) {
   .footer {
     max-width: 720px;
+    margin: 0 24px;
   }
 }
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 540px) {
   .footer {
     flex-direction: column;
+    margin: 0;
   }
 }

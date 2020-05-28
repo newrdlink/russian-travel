@@ -6,11 +6,17 @@
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: #fff;
-  margin: 0;
+  margin: 0 0 0 48px;
 }
 
 @media screen and (max-width: 775px) {
   .lead__caption {
-    padding-left: 24px;
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .lead__caption {
+    margin-left: 16px;
   }
 }

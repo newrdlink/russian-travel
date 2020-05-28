@@ -5,9 +5,8 @@
 .menu {
 }
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 540px) {
   .menu {
-    margin: 0 0 48px 0;
-    padding-left: 16px;
+    margin: 0 0 48px 16px;
   }
 }

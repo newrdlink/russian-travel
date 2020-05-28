@@ -20,7 +20,7 @@
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 540px) {
   .photo-grid__cells {
     grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
     grid-gap: 12px;

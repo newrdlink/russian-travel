@@ -11,7 +11,7 @@
   margin: 0 auto 80px;
   display: grid;
   grid-gap: 40px;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 460px 1fr;
 }
 
 .place:last-of-type {
@@ -20,18 +20,20 @@
 
 @media screen and (max-width: 1030px) {
   .place {
+    grid-template-columns: 440px 1fr;
     grid-gap: 32px;
   }
 }
 
 @media screen and (max-width: 775px) {
   .place {
+    grid-template-columns: 340px 1fr;
     grid-gap: 28px;
     margin: 0 auto 72px;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 540px) {
   .place {
     grid-template-columns: 1fr;
     margin: 0 auto 48px;

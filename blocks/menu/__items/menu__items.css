@@ -7,7 +7,7 @@
   margin: 0;
 }
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 540px) {
   .menu__items {
     display: block;
     margin: 0 0 32px 0;

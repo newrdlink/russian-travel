@@ -12,6 +12,12 @@
   margin: 0;
 }
 
+@media screen and (max-width: 1030px) {
+  .place__text {
+    padding-right: 16px;
+  }
+}
+
 @media screen and (max-width: 775px) {
   .place__text {
     font-size: 16px;
@@ -20,7 +26,7 @@
   }
 }
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 540px) {
   .place__text {
     font-size: 16px;
     line-height: 26px;
