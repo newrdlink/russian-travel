@@ -1,3 +1,6 @@
 .cover__link {
   text-decoration: none;
+  min-height: 740px;
+  margin: 0;
+  padding: 0;
 }

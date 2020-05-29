@@ -9,26 +9,52 @@
   min-height: 740px;
   max-width: 1184px;
   margin: 0 auto 92px;
-  background-image: url(../../images/__background.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
+  background: url(../../images/__background.jpg) 50% 50% no-repeat;
   background-size: contain;
 }
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1170px) {
   .cover {
     min-height: 640px;
   }
 }
 
-@media screen and (max-width: 775px) {
+@media screen and (max-width: 990px) {
+  .cover {
+    min-height: 580px;
+    margin: 0 auto 88px;
+  }
+}
+
+@media screen and (max-width: 900px) {
   .cover {
     min-height: 480px;
     margin: 0 auto 88px;
   }
 }
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 750px) {
+  .cover {
+    min-height: 380px;
+    margin: 0 auto 88px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .cover {
+    min-height: 280px;
+    margin: 0 auto 88px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .cover {
+    min-height: 240px;
+    margin: 0 auto 88px;
+  }
+}
+
+@media screen and (max-width: 350px) {
   .cover {
     min-height: 200px;
     margin: 0 auto 64px;
