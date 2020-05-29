@@ -29,28 +29,24 @@
 @media screen and (max-width: 900px) {
   .cover {
     min-height: 480px;
-    margin: 0 auto 88px;
   }
 }
 
 @media screen and (max-width: 750px) {
   .cover {
     min-height: 380px;
-    margin: 0 auto 88px;
   }
 }
 
 @media screen and (max-width: 570px) {
   .cover {
     min-height: 280px;
-    margin: 0 auto 88px;
   }
 }
 
 @media screen and (max-width: 420px) {
   .cover {
     min-height: 240px;
-    margin: 0 auto 88px;
   }
 }
 
